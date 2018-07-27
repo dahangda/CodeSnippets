@@ -3,19 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>rcell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,assign) CGSize &lt;#property#&gt;;</string>
+	<string>static NSString *rid=&lt;#rid#&gt;;  
+
+&lt;#Class#&gt; *cell=[tableView dequeueReusableCellWithIdentifier:rid];
+
+if(cell==nil){
+    
+    cell=[[&lt;#Class#&gt; alloc] initWithStyle:UITableViewCellStyleDefault      reuseIdentifier:rid];
+    
+}
+
+return cell;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>96B88F53-B0B4-47F0-A5E3-5ADA5997CC57</string>
+	<string>8B5AADEC-FB07-44A8-A1A1-E928EF4A7BDE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>结构体CGsize</string>
+	<string>re-usercell--复用</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

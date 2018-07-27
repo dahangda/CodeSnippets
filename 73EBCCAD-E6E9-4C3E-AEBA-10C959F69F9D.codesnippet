@@ -2,21 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性名#&gt; */
-@property(nonatomic,weak) &lt;#class#&gt; *            &lt;#name#&gt;;</string>
+	<string>//判断是否在其他地方登录
+        [Helper isLoginOtherPlaceWithResponseObj:responseObj WithController:self];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C388FF07-A64F-426B-8490-1B59B1280D25</string>
+	<string>73EBCCAD-E6E9-4C3E-AEBA-10C959F69F9D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak--控件</string>
+	<string>判断是否在其他地方登录</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

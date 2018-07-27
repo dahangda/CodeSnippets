@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark ********************&lt;#注释#&gt;
+	<string>#pragma mark - &lt;#注释#&gt; 
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0EF17DD1-1886-483D-95E2-834970E5BBA2</string>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>方法注释</string>
+	<string>功能注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

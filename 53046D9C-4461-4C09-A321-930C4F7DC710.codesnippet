@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>donghua</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark ————— tableview动画—————
+- (void)tableviewAnimation{
+
+// 将列表变为不可见，重载数据
+self.tableView.alpha = 0.0f;
+[self.tableView reloadData];
+
+// 存储一个时间变量，这样我就可以调整每行动画之间的延迟时间
+CGFloat diff = 0.5;
+CGFloat tableHeight = self.tableView.bounds.size.height;
+NSArray *cells = [self.tableView visibleCells];
+
+// 遍历行并将它们移动到屏幕底部
+for (NSUInteger a = 0; a &lt; [cells count]; a++) {
+    UITableViewCell *cell = [cells objectAtIndex:a];
+    if ([cell isKindOfClass:[UITableViewCell class]]) {
+        
+        // 通过变换cell的Y坐标来讲其移动到屏幕底部
+        cell.transform = CGAffineTransformMakeTranslation(0, tableHeight);
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>53046D9C-4461-4C09-A321-930C4F7DC710</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>动画使用cell，缓慢加入</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableview动画</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

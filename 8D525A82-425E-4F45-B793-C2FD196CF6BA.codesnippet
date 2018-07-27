@@ -3,20 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>dispath_main</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性名#&gt; */
-@property(nonatomic,weak) &lt;#class#&gt; *            &lt;#name#&gt;;</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+    &lt;#code#&gt;//回调或者说是通知主线程刷新，
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C388FF07-A64F-426B-8490-1B59B1280D25</string>
+	<string>8D525A82-425E-4F45-B793-C2FD196CF6BA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak--控件</string>
+	<string>回到主要线程刷新页面</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

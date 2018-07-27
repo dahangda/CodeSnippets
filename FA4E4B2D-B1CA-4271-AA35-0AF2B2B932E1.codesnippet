@@ -3,20 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>duc-注释</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性名#&gt; */
-@property(nonatomic,weak) &lt;#class#&gt; *            &lt;#name#&gt;;</string>
+	<string>/** &lt;#属性注释#&gt;*/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C388FF07-A64F-426B-8490-1B59B1280D25</string>
+	<string>FA4E4B2D-B1CA-4271-AA35-0AF2B2B932E1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak--控件</string>
+	<string>简单注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

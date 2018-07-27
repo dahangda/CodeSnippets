@@ -2,21 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性名#&gt; */
-@property(nonatomic,weak) &lt;#class#&gt; *            &lt;#name#&gt;;</string>
+	<string>_myTableView = [[UITableView alloc]init];
+    _myTableView.frame = CGRectMake(0, 0, KAPI_View_W, KAPI_View_H);
+    _myTableView.delegate = self;
+    _myTableView.dataSource = self;
+    
+    [self.view addSubview:_myTableView];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C388FF07-A64F-426B-8490-1B59B1280D25</string>
+	<string>9398306D-8573-4731-998C-FD1844C3E658</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak--控件</string>
+	<string>TableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

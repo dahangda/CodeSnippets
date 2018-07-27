@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/*&lt;#文档注释#&gt;
+	<string>/**文档注释
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4B52119C-13CF-435F-ABA9-77BDDD7C6C1C</string>
