@@ -3,31 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rcell</string>
+	<string>copy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *rid=&lt;#rid#&gt;;  
-
-&lt;#Class#&gt; *cell=[tableView dequeueReusableCellWithIdentifier:rid];
-
-if(cell==nil){
-    
-    cell=[[&lt;#Class#&gt; alloc] initWithStyle:UITableViewCellStyleDefault      reuseIdentifier:rid];
-    
-}
-
-return cell;</string>
+	<string>@property (nonatomic, copy) NSArray    *&lt;#propertyName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8B5AADEC-FB07-44A8-A1A1-E928EF4A7BDE</string>
+	<string>739CA895-CE3B-4C39-BAFB-7440AFB43AE9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>可复制字典</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>re-usercell--复用</string>
+	<string>NSArrary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

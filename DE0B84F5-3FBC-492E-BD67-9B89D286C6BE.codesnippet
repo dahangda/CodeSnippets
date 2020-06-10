@@ -10,7 +10,7 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,assign) CGFloat      &lt;#float#&gt;;</string>
+	<string>@property (nonatomic,assign) CGFloat    &lt;#float#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE0B84F5-3FBC-492E-BD67-9B89D286C6BE</string>
 	<key>IDECodeSnippetLanguage</key>

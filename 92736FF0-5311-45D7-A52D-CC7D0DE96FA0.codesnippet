@@ -10,8 +10,7 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-@property(nonatomic,copy) NSString     *&lt;#string#&gt;</string>
+	<string>@property(nonatomic,copy) NSString   *&lt;#string#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>92736FF0-5311-45D7-A52D-CC7D0DE96FA0</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>字符串copy</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy</string>
+	<string>string</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

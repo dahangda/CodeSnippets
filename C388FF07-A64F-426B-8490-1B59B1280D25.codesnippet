@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>弱引用</string>
+	<string>弱引用 block </string>
 	<key>IDECodeSnippetTitle</key>
 	<string>weak</string>
 	<key>IDECodeSnippetUserSnippet</key>

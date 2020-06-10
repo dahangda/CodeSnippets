@@ -3,22 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>view-UIstatusBar</string>
+	<string>enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//设置电池栏为白色
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];</string>
+	<string>typedef NS_ENUM(NSUInteger, &lt;#EnumTypeName#&gt;) {
+    &lt;#EnumType#&gt;,      //前面是枚举名字后边是枚举类型
+    &lt;#EnumType#&gt;,
+    &lt;#EnumType#&gt;,
+    &lt;#EnumType#&gt;,
+    &lt;#EnumType#&gt;
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B947DAFD-890F-4D26-B353-B15E1E7950B5</string>
+	<string>6A8A2E7A-9F8C-4C4E-82F8-B198BF66DF29</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>设置电池栏为白色</string>
+	<string>枚举类型用数字代替</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>statusBar</string>
+	<string>enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

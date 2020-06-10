@@ -11,7 +11,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
-  &lt;#描述#&gt;
+ *  &lt;#描述#&gt;
 */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>92F69CA3-2A3C-4012-AC87-B846098C5998</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

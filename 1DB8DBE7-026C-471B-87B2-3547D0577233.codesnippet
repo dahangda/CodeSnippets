@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef &lt;#returnType#&gt;(^&lt;#name#&gt;)(&lt;#arguments#&gt;);</string>
+	<string>typedef &lt;#returnType#&gt;(^&lt;#blockname#&gt;)(&lt;#arguments#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1DB8DBE7-026C-471B-87B2-3547D0577233</string>
 	<key>IDECodeSnippetLanguage</key>

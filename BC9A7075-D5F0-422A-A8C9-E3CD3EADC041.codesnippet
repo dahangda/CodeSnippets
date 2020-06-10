@@ -10,7 +10,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong) &lt;#class#&gt; *       &lt;#name#&gt;;</string>
+	<string>@property(nonatomic,strong) &lt;#class#&gt;      *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BC9A7075-D5F0-422A-A8C9-E3CD3EADC041</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>不可修改类型的</string>
+	<string>不可修改类型的 NSArry,NSDictionty,view </string>
 	<key>IDECodeSnippetTitle</key>
 	<string>strong</string>
 	<key>IDECodeSnippetUserSnippet</key>

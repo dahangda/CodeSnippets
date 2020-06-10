@@ -2,30 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>copy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSDictionary *dic = @{Token};
-    [Helper post:&lt;#(NSString *)#&gt; postBody:dic number:1 success:^(id responseObj) {
-        NSLog(@"responseObj========%@",responseObj);
-        
-        
-        
-    } ailure:^(NSError *error) {
-        NSLog(@"error : %@",error);
-        [BaseUtil toast:@"获取数据失败"];
-        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-    }];
-    
-</string>
+	<string>@property (nonatomic, copy) NSDictionary    *&lt;#propertyName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>13FFF1D4-2530-4D30-86BF-8797997254D2</string>
+	<string>5784918E-C936-4DE9-B44F-4047EF959945</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>复制新的字典</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Post</string>
+	<string>Dictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

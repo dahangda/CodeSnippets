@@ -3,30 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lable</string>
+	<string>share</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//创建label
-- (UILabel *)createLWithFrame:(CGRect)frame
-                         font:(float)font
-                    textColor:(NSString *)color
-                    superView:(UIView *)superView{
-    UILabel *label = [[UILabel alloc]init];
-    label.frame = frame;
-    label.font = [UIFont systemFontOfSize:font];
-    label.textColor = [UIColor colorWithHexString:color];
-    [superView addSubview:label];
-    return label;
+	<string>+ (instancetype)sharedManager {
+    static &lt;#className#&gt; *_sharedManager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        _sharedManager = [[self alloc] init];
+    });
+    
+    return _sharedManager;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0ABF4819-B972-4D5C-B8FF-6D381176016F</string>
+	<string>46D5D019-FD09-4B35-B5E5-4E02F06761F9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>单粒实现</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建label</string>
+	<string>singleInstance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

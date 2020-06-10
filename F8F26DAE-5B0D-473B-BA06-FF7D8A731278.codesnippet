@@ -10,7 +10,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,assign)NSInteger       &lt;#int#&gt;;
+	<string>@property(nonatomic,assign)NSInteger    &lt;#int#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F8F26DAE-5B0D-473B-BA06-FF7D8A731278</string>
