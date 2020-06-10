@@ -9,14 +9,15 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性名#&gt; */
-@property(nonatomic,weak) &lt;#class#&gt; *            &lt;#name#&gt;;</string>
+	<string>@property(nonatomic,weak) &lt;#class#&gt;        *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C388FF07-A64F-426B-8490-1B59B1280D25</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>弱引用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak--控件</string>
+	<string>weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

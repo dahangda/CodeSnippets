@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>duc-注释</string>
+	<string>des</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性注释#&gt;*/</string>
+	<string>/**&lt;#注释#&gt;*/</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FA4E4B2D-B1CA-4271-AA35-0AF2B2B932E1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>注释</string>
+	<string>常规注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>简单注释</string>
+	<string>des</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

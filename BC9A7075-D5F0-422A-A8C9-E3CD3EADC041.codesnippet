@@ -6,19 +6,21 @@
 	<string>strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassInterfaceMethods</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#属性名#&gt; */
-@property(nonatomic,strong) &lt;#class#&gt; *       &lt;#name#&gt;;</string>
+	<string>@property(nonatomic,strong) &lt;#class#&gt; *       &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BC9A7075-D5F0-422A-A8C9-E3CD3EADC041</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>不可修改类型的</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong---控件</string>
+	<string>strong</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

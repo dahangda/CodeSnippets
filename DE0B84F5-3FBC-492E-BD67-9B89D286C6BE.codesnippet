@@ -7,17 +7,20 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,assign) CGFloat &lt;#property#&gt;;</string>
+	<string>@property (nonatomic,assign) CGFloat      &lt;#float#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE0B84F5-3FBC-492E-BD67-9B89D286C6BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CGFloat</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>基本数据类型CGFloat</string>
+	<string>float</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

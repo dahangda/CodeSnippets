@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>methods</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
  &lt;#描述功能#&gt;
 
- @param &lt;#参数1#&gt; &lt;#控制视图#&gt;
- @param &lt;#参数2#&gt; &lt;#当前点击点#&gt;
+ @param &lt;#参数1#&gt;    &lt;#作用1#&gt;
+ @param &lt;#参数2#&gt;    &lt;#作用2#&gt;
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7B7F9A7E-4ADC-4D19-A903-5F082D72C49B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>接口文档注释-用于程序员看                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </string>
+	<string>  详细描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>接口文档注释</string>
+	<string>method detail description</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

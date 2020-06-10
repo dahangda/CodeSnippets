@@ -6,6 +6,7 @@
 	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassImplementation</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
@@ -15,9 +16,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>方法注释</string>
+	<string>分块功能</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>方法注释</string>
+	<string>//MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

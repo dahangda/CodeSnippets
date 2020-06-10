@@ -2,23 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImageView *imgView = [[UIImageView alloc]init];
-    imgView.frame = CGRectMake(12, 3, 52, 52);
-    imgView.backgroundColor = [UIColor redColor];</string>
+	<string>/**
+  &lt;#描述#&gt;
+*/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DED5BAF2-083D-4072-BB94-407272D469CC</string>
+	<string>92F69CA3-2A3C-4012-AC87-B846098C5998</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>精简描述</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建ImageView</string>
+	<string>methods description</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
