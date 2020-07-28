@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>initWithStyle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#propertyType#&gt;)_&lt;#propertyName#&gt;{
-if (_&lt;#propertyName#&gt; == nil) {
-      _&lt;#propertyName#&gt; = [ [&lt;#propertyType#&gt; alloc] init];
+	<string>- (instancetype)initWithStyle:(UITableViewStyle)style {
+    if (self = [super initWithStyle:style]) {
+        &lt;#code#&gt;
     }
-return _&lt;#propertyName#&gt;;
+    return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5063135D-D80B-425D-BA31-253145893FC1</string>
+	<string>E61F2B72-1DDE-42D9-A0CB-B713695C598E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>property实例</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>propertyLazy</string>
+	<string>UITableView -initWithStyle:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

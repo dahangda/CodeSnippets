@@ -3,29 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>addChildViewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#propertyType#&gt;)_&lt;#propertyName#&gt;{
-if (_&lt;#propertyName#&gt; == nil) {
-      _&lt;#propertyName#&gt; = [ [&lt;#propertyType#&gt; alloc] init];
-    }
-return _&lt;#propertyName#&gt;;
-}</string>
+	<string>[self addChildViewController:&lt;#childViewController#&gt;];
+        [self.view addSubview:&lt;#childViewController#&gt;.view];
+        [&lt;#childViewController#&gt; didMoveToParentViewController:self];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5063135D-D80B-425D-BA31-253145893FC1</string>
+	<string>51608015-7179-49F1-8CF7-4810CEF069E0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property实例</string>
+	<string>UIViewController addChildViewController:</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>propertyLazy</string>
+	<string>addChildViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

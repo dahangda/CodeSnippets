@@ -3,29 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>setFrame_QMUI</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#propertyType#&gt;)_&lt;#propertyName#&gt;{
-if (_&lt;#propertyName#&gt; == nil) {
-      _&lt;#propertyName#&gt; = [ [&lt;#propertyType#&gt; alloc] init];
-    }
-return _&lt;#propertyName#&gt;;
-}</string>
+	<string>&lt;#view#&gt;.frame = CGRectFlatMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5063135D-D80B-425D-BA31-253145893FC1</string>
+	<string>0E66F758-D976-483F-A71A-1B94A8ADA34A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>property实例</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>propertyLazy</string>
+	<string>set UIView frame with QMUI CGRectFlatMake</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

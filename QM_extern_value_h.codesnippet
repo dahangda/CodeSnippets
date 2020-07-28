@@ -3,29 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>externValueInH</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#propertyType#&gt;)_&lt;#propertyName#&gt;{
-if (_&lt;#propertyName#&gt; == nil) {
-      _&lt;#propertyName#&gt; = [ [&lt;#propertyType#&gt; alloc] init];
-    }
-return _&lt;#propertyName#&gt;;
-}</string>
+	<string>extern const &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5063135D-D80B-425D-BA31-253145893FC1</string>
+	<string>3F020BCC-5E6C-4538-A470-1E124BB4DBAE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>property实例</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>propertyLazy</string>
+	<string>extern Value in *.h file</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
