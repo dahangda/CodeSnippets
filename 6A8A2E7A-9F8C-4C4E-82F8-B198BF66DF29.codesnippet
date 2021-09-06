@@ -6,8 +6,8 @@
 	<string>enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>ClassInterfaceVariables</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>typedef NS_ENUM(NSUInteger, &lt;#EnumTypeName#&gt;) {
@@ -26,7 +26,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>枚举类型用数字代替</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>enum</string>
+	<string>NS_ENUMdef-----枚举</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
