@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>pcd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -14,10 +14,12 @@
 	<string>5784918E-C936-4DE9-B44F-4047EF959945</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>复制新的字典</string>
+	<string>copy  NSDictionary</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dictionary</string>
+	<string>Property For Copy NSDictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

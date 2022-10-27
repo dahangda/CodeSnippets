@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cps</string>
+	<string>pcall</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,copy) NSString   *&lt;#string#&gt;</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt;      &lt;#propertyName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>92736FF0-5311-45D7-A52D-CC7D0DE96FA0</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,9 +17,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>字符串copy</string>
+	<string>NSarry ,NSDictionary</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>string</string>
+	<string>Property For Copy All</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

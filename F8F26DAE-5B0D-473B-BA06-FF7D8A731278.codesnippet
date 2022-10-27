@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>pasNSInteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,assign)NSInteger    &lt;#int#&gt;;
+	<string>@property (nonatomic, assign) NSInteger    &lt;#propertyName#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F8F26DAE-5B0D-473B-BA06-FF7D8A731278</string>
@@ -19,9 +18,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSInteger类型</string>
+	<string>property NSInteger</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSInteger</string>
+	<string>Property for  assign  NSInteger</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

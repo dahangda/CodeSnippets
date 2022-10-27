@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fnblock</string>
+	<string>functionreturnblock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -18,8 +18,10 @@
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetTitle</key>
+	<key>IDECodeSnippetSummary</key>
 	<string>创建一个返回值为block类型的方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Function Return block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

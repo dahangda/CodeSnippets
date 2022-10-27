@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>passignCGFloat</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,assign) CGFloat    &lt;#float#&gt;;</string>
+	<string>@property (nonatomic,assign) CGFloat    &lt;#var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE0B84F5-3FBC-492E-BD67-9B89D286C6BE</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -18,9 +17,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>CGFloat</string>
+	<string>property CGFloat</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>float</string>
+	<string>Property for assign CGFloat</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,11 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>enum</string>
+	<string>typedefenum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>typedef NS_ENUM(NSUInteger, &lt;#EnumTypeName#&gt;) {
@@ -24,9 +23,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>枚举类型用数字代替</string>
+	<string>typedef enum</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NS_ENUMdef-----枚举</string>
+	<string>Define EnumType</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

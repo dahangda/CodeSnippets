@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>markmodule</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#注释#&gt; 
+	<string>#pragma mark ------ &lt;#注释#&gt; 
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0EF17DD1-1886-483D-95E2-834970E5BBA2</string>
@@ -18,9 +18,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>例如：生命周期函数放在一起</string>
+	<string>模块</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#pragma mark</string>
+	<string>MARK for module</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
